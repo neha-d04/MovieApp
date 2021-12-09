@@ -15,7 +15,7 @@ function displayMovie(data) {
   data.forEach((element) => {
     html += `<div
             class="card col-lg-4 col-md-6 col-sm-12 movie"
-            style="width: 22rem"
+            style="width: 20rem"
           >
             <img src="https://image.tmdb.org/t/p/w500${element.poster_path}" class="card-img-top" alt="Image" />
             <div class="card-body">
